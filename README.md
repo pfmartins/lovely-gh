@@ -31,9 +31,13 @@ React router dom
 
 ### Concepts
 Functional components
+
 Project structure based on DDD (Domain Driven Design)
+
 Reusable components
+
 Clean code
-kiss
+
+KISS ([plus!](https://thevaluable.dev/kiss-principle-explained))
 
 
