@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route, Navigate, useLocation, Outlet} from 'react-router-dom';
-import './styles/index.css';
 import './styles/index-sass';
 import FindUser from './domain/finder/find/FindUser';
 import FindResult from './domain/finder/result/FindResult';
