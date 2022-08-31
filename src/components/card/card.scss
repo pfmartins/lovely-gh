@@ -7,7 +7,7 @@
     border-radius: 8px;
     min-width: 200px;
     min-height: 200px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: var(--card-box-shadow);
 
     &--flat {
         box-shadow: none;
@@ -48,7 +48,7 @@
         color: #fff;
 
         &--dark {
-            color: #474444;
+            color: var(--font-color-primary);
         }
     }
 
@@ -56,7 +56,7 @@
         font-size: 16px;
         font-weight: normal;
         line-height: 22px;
-        color: #474444;
+        color: var(--font-color-primary);
         margin-top: 25px;
     }
 
@@ -64,7 +64,7 @@
         font-size: 16px;
         font-weight: normal;
         line-height: 22px;
-        color: #474444;
+        color: var(--font-color-primary);
         margin-bottom: 10px;
 
         &--small {
@@ -75,7 +75,7 @@
     }
 
     &__link {
-        color: #f05a5b;
+        color: var(--font-color-secondary);
         font-size: 12px;
         font-weight: normal;
         line-height: 16px;

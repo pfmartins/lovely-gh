@@ -1,6 +1,6 @@
 .find-user {
   &__body {
-    background-color: #f9f4ed;
+    background-color: var(--background-color);
     min-height: calc(100vh - 175px);
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@
     padding: 10px 20px;
     min-width: 150px;
     outline: none;
-    color: #333333;
+    color: var(--font-color-primary);
     border: #d3d3d3 solid 1px;
 
     @media only screen and (min-width: 768px) {
@@ -62,7 +62,7 @@
   }
 
   &__error-message {
-    color: #f05a5b;
+    color: var(--font-color-secondary);
     font-size: 14px;
   }
 }

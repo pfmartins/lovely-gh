@@ -75,7 +75,7 @@ const FindResult = () => {
                     </>
                 }
             </div>
-            <Footer />
+            <Footer fixed={githubUserRepos.length < 5 ? true : false} />
         </div>
     )
 }
