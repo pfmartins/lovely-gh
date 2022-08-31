@@ -11,6 +11,9 @@ Try running the available scripts.
 `npm run test`: Launch test runner and execute all tests from the app.
 `Host`: [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
+## Running the project
+
+`npm i && npm start`: Will install all deps from your package.json and run the project with hot replacement enabled.
 
 ## Concepts, technology and approaches
 
